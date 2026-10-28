@@ -75,6 +75,13 @@ yarn build
 
 最適化したファイルが `build/` に出力されます。`yarn preview` でビルド結果を確認できます。
 
+## デプロイ
+
+master に push すると、GitHub Actions（`.github/workflows/deploy.yml`）がビルドして GitHub Pages に公開します。
+
+- 公開先: https://maangie.github.io/gazo/
+- GitHub Pages では `/gazo/` の下で公開するため、`yarn build` のときだけ Vite の `base` を `/gazo/` にしています。
+
 ## 注意
 
 - マウスのイベントは画像の要素で受けています。そのため、マウスを速く動かして画像の外に出ると、ドラッグが途切れることがあります。
