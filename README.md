@@ -12,7 +12,7 @@
 
 | 分類 | ライブラリ |
 |---|---|
-| UI | React 18 / React DOM |
+| UI | React 19 / React DOM |
 | ビルド | Vite 8（`@vitejs/plugin-react`） |
 | テスト | Vitest 5 / jsdom / Testing Library |
 
